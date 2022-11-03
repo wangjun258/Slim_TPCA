@@ -14,4 +14,4 @@ used to calculate other parameters. - test the validility of the methods
 implemented. - improve the documentation
 
 Please also feel free to contact us if you think there are other things
-TB2J can help.
+Slim_TPCA can help.

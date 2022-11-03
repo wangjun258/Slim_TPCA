@@ -5,16 +5,6 @@ List of parameters:
 -------------------------------
 The list of parameter can be found using:
 
-::
-
-   wann2J.py --help
-
-or
-
-::
-
-   siesta2J.py --help
-
 The parameter will be explained in the following text.
 
 * kmesh: Three integers to specify the size of a Monkhorst-Pack mesh. This is the mesh of k-points used to calculate the Green's functions. The real space supercell in which the magnetic interactions are calculated, has the same size as the k-mesh. For example, a :math:`7 \times 7 \times` k-mesh is linked with a :math:`7 \times 7 \times` supercell, the atom :math:`i` resides in the center cell, whereas the :math:`j` atom can be in all the cells in the supercell. 

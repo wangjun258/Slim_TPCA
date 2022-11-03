@@ -1,15 +1,11 @@
 Contributors
 ============
 
-The main contributors to the TB2J package are:
+The main contributors to the Slim_TPCA package are:
 
-* Xu He (mailhexu@gmail.com)
+* Siyuan Su (mailhexu@gmail.com)
 
-* Nicole Helbig
-
-* Matthieu Verstraete
-
-* Eric Bousquet
+* et al
 
 We welcome contributions. You can help us with - extend the input format
 to other codes, e.g. first principles or tight binding code. - extend

@@ -6,8 +6,8 @@ Dependencies
 Slim_TPCA is a python package which requires python version higher than 3.6 to work.
 It depends on the following packages.
 
--  numpy as np
--  pandas as pd
+-  numpy
+-  pandas
 -  matplotlib
 -  scipy
 -  sklearn
@@ -18,19 +18,19 @@ It depends on the following packages.
 
 
 If you use pip to intall, they will be automatically installed so there is no need to 
-install them manually before installing TB2J. 
+install them manually before installing Slim_TPCA. 
 
 
 How to install
 --------------
 
-The most easy way to install TB2J is to use pip:
+The most easy way to install Slim_TPCA is to use pip:
 
 ::
 
    pip install Slim_TPCA
 
-You can also download TB2J from the github page, and install with
+You can also download Slim_TPCA from the github page, and install with
 
 ::
 

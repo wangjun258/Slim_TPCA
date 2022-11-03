@@ -1,4 +1,4 @@
-The output of TB2J
+The output of Slim_TPCA
 ==================
 
 

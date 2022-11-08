@@ -6,10 +6,9 @@
 Welcome to Slim_TPCA's documentation!
 ================================
 
- Slim_TPCA is an open source Python package for the automatic computation of magnetic interactions (including exchange and Dzyaloshinskii-Moriya) between atoms of magnetic crystals from density functional Hamiltonians based on Wannierfunctions or linear combination of atomic orbitals.  The program is based on the Green’s function method with the local rigid spin rotation treated as a perturbation.  As input, the package uses the output of either Wannier90, whichis interfaced with many density functional theory packages, or of codes based on localized orbitals.  A minimal userinput is needed, which allows for easy integration into high-throughput workflows.
+ Slim-TPCA package is a python package which requires python version higher than 3.7 to work. Slim-TPCA has been optimised based on the TPCA method published in 2018. By using fewer temperature points, Slim-TPCA can reduce the volume of samples required, eliminate the batch effect in multiplex mass spectrometry experiments, and greatly shorten the calculation time required. In the Slim-TPCA package, users can perform data pre-processing, graph ROC plots to determine the ability of the data to predict protein interactions, calculate the TPCA signatures of the complexes and dynamic modulations of the complexes.
  The source code can be found at `https://github.com/wangjun258/Slim_TPCA <https://github.com/wangjun258/Slim_TPCA>`_.
- For questions please use the online forum at `<https://groups.google.com/g/Slim_TPCA>`_, or send email to `<Slim_TPCA@googlegroup.com>`_.
- More Slim_TPCA examples with full DFT/Wannier data can be found at `https://github.com/wangjun258/Slim_TPCA_examples <https://github.com/wangjun258/Slim_TPCA_examples>`_ .
+ More Slim_TPCA examples with full test data can be found at `https://github.com/wangjun258/Slim_TPCA_examples <https://github.com/wangjun258/Slim_TPCA_examples>`_ .
 
 
 
@@ -18,7 +17,7 @@ Welcome to Slim_TPCA's documentation!
    :caption: Contents:
 
    src/install.rst
-   src/convention.rst
+   src/function.rst
    src/faq.rst
    src/Contributors.rst
    src/references

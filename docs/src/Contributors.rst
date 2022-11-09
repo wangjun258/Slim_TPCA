@@ -3,7 +3,11 @@ Contributors
 
 The main contributors to the Slim_TPCA package are:
 
-* Siyuan Su (mailhexu@gmail.com)
+* Siyuan Su (11930100@mail.sustech.edu.cn)
+
+* Jun Wang
+
+* Chris Soon Heng TAN
 
 * et al
 
@@ -14,4 +18,4 @@ used to calculate other parameters. - test the validility of the methods
 implemented. - improve the documentation
 
 Please also feel free to contact us if you think there are other things
-Slim_TPCA can help.
+Slim-TPCA can help.

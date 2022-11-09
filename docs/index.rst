@@ -16,6 +16,7 @@ Welcome to Slim_TPCA's documentation!
    :maxdepth: 1
    :caption: Contents:
 
+   notebooks/Slim_TPCA_test
    src/install.rst
    src/function.rst
    src/faq.rst

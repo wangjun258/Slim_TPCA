@@ -17,7 +17,10 @@ Welcome to Slim_TPCA's documentation!
    :caption: The Contents:
    
    src/install.rst
+   src/run_analysis
+   
    notebooks/Slim_TPCA_test
+   
    src/function.rst
    src/faq.rst
    src/Contributors.rst

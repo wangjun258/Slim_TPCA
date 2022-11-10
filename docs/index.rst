@@ -14,20 +14,10 @@ Welcome to Slim_TPCA's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: The Basics:
+   :caption: The Contents:
    
    src/install.rst
-   
-.. toctree::
-   :maxdepth: 1
-   :caption: Examples and tutorials:
-   
    notebooks/Slim_TPCA_test
-   
-.. toctree::
-   :maxdepth: 1
-   :caption: Contents:
-   
    src/function.rst
    src/faq.rst
    src/Contributors.rst

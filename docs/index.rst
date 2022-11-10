@@ -14,11 +14,10 @@ Welcome to Slim_TPCA's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Contents:
+   :caption: The Basics:
    
    src/install.rst
-   src/function.rst
-
+   
 .. toctree::
    :maxdepth: 1
    :caption: Examples and tutorials:
@@ -29,6 +28,7 @@ Welcome to Slim_TPCA's documentation!
    :maxdepth: 1
    :caption: Contents:
    
+   src/function.rst
    src/faq.rst
    src/Contributors.rst
    src/references

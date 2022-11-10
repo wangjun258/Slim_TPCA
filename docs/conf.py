@@ -21,6 +21,20 @@ project = 'Slim_TPCA'
 copyright = '2022, Siyuan Sun'
 author = 'Siyuan Sun'
 
+# # -- Mock imports ------------------------------------------------------------
+autodoc_mock_imports = [ 
+    'pandas', 
+    'numpy', 
+    'scipy', 
+    'sklearn', 
+    'statsmodels',
+    'matplotlib', 
+    'random', 
+    're', 
+    'warnings', 
+    'seaborn'
+    ]
+
 
 # -- General configuration ---------------------------------------------------
 

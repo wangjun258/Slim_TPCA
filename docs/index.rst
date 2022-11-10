@@ -15,10 +15,20 @@ Welcome to Slim_TPCA's documentation!
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
-
-   notebooks/Slim_TPCA_test
+   
    src/install.rst
    src/function.rst
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Examples and tutorials:
+   
+   notebooks/Slim_TPCA_test
+   
+.. toctree::
+   :maxdepth: 1
+   :caption: Contents:
+   
    src/faq.rst
    src/Contributors.rst
    src/references
@@ -29,4 +39,5 @@ Indices and tables
 ==================
 
 * :ref:`genindex`
+* :ref:`modindex`
 

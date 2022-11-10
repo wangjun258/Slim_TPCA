@@ -28,6 +28,10 @@ author = 'Siyuan Sun'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['recommonmark', 
+              "nbsphinx",
+              "sphinx.ext.napoleon", 
+              "sphinx.ext.coverage",
+              "sphinx.ext.viewcode", 
               "sphinx_rtd_theme",
               "sphinx.ext.mathjax",
               "sphinx.ext.autodoc"

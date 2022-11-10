@@ -10,22 +10,24 @@ Welcome to Slim_TPCA's documentation!
  The source code can be found at `https://github.com/wangjun258/Slim_TPCA <https://github.com/wangjun258/Slim_TPCA>`_.
  More Slim_TPCA examples with full test data can be found at `https://github.com/wangjun258/Slim_TPCA_examples <https://github.com/wangjun258/Slim_TPCA_examples>`_ .
 
-
+======================
+Documentation contents
+======================
 
 .. toctree::
    :maxdepth: 1
    :caption: The Contents:
    
-   src/install.rst
-   src/run_analysis
+   install.rst
+   run_analysis
    
    notebooks/Slim_TPCA_test
    
-   src/function.rst
-   src/faq.rst
-   src/Contributors.rst
-   src/references
-   src/ReleaseNotes.md
+   function.rst
+   faq.rst
+   Contributors.rst
+   references
+   ReleaseNotes.md
 
 
 Indices and tables

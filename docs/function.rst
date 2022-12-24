@@ -132,7 +132,7 @@ complex_signature_sample(table, complex_table, ref_col=1, method='cityblock', sa
         
         samplesize : Number of random samples
     Return: 
-        A table including p value and z-score values for each protein complex
+        Return two table, the first table is a table of random values used to calculate p-values, the second table including p value and z-score values for each protein complex
     
 complex_signature_beta(table, complex_table, ref_col=1, method='cityblock', samplesize=500): 
     Calculate TPCA signatures of complexes by fitting a beta distribution to random complexes.
@@ -148,7 +148,7 @@ complex_signature_beta(table, complex_table, ref_col=1, method='cityblock', samp
         
         samplesize : Number of random samples
     Return: 
-        A table including p value and z-score values for each protein complex
+        Return two table, the first table is a table of random values used to calculate p-values, the second table including p value and z-score values for each protein complex
     
 align(table_1, table_2, ref_col=1): 
     Multiple sets of data may identify different proteins and align them here.
@@ -178,7 +178,7 @@ dynamic_complex_absolute_sample(table_1, table_2, complex_table, ref_col=1, meth
         
         samplesize : Number of random samples
     Return: 
-        A DataFrame table contain average Manhattan distance between melting curves among all pairs of subunits of a protein complex in table1(col: Avg_Dist_1) and table2(col: Avg_Dist_2), z-scores value in table1(col: Avg_Dist_Derived_1) and table2(col: Avg_Dist_2), (col: Avg_Dist_Derived_2), Avg Dist relative change the dynamic p-values of the protein complex changes(col: Dynamic_P)
+        Return two table, the first table is a table of random values used to calculate p-values, the second tablecontain average Manhattan distance between melting curves among all pairs of subunits of a protein complex in table1(col: Avg_Dist_1) and table2(col: Avg_Dist_2), z-scores value in table1(col: Avg_Dist_Derived_1) and table2(col: Avg_Dist_2), (col: Avg_Dist_Derived_2), Avg Dist relative change the dynamic p-values of the protein complex changes(col: Dynamic_P)
 
     
 dynamic_complex_relative_sample(table_1, table_2, complex_table, ref_col=1, method='cityblock', samplesize=10000): 
@@ -197,7 +197,7 @@ dynamic_complex_relative_sample(table_1, table_2, complex_table, ref_col=1, meth
         
         samplesize : Number of random samples
     Return: 
-        A DataFrame table contain average Manhattan distance between melting curves among all pairs of subunits of a protein complex in table1(col: Avg_Dist_1) and table2(col: Avg_Dist_2), z-scores value in table1(col: Avg_Dist_Derived_1) and table2(col: Avg_Dist_2), (col: Avg_Dist_Derived_2), Avg Dist relative change the dynamic p-values of the protein complex changes(col: Dynamic_P)
+        Return two table, the first table is a table of random values used to calculate p-values, the second tablecontain average Manhattan distance between melting curves among all pairs of subunits of a protein complex in table1(col: Avg_Dist_1) and table2(col: Avg_Dist_2), z-scores value in table1(col: Avg_Dist_Derived_1) and table2(col: Avg_Dist_2), (col: Avg_Dist_Derived_2), Avg Dist relative change the dynamic p-values of the protein complex changes(col: Dynamic_P)
 
     
 dynamic_complex_absolute_beta(table_1, table_2, complex_table, ref_col=1, method='cityblock', samplesize=500): 

@@ -15,6 +15,7 @@ It depends on the following packages.
 -  seaborn
 -  copy
 -  re
+-  warnings
 
 
 If you use pip to intall, they will be automatically installed so there is no need to 

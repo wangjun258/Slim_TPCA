@@ -5,7 +5,7 @@ Frequently asked questions.
 
 How can I ask questions or report bugs?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-You can send emails to  Slim_TPCA@googlegroups.com . Another option is the discussion page on github: https://github.com/wangjun258/Slim_TPCA/discussions . Before doing so, please read the documents and first try to find out if things are already there.
+You can send emails to  11930100@mail.sustech.edu.cn . Another option is the discussion page on github: https://github.com/wangjun258/Slim_TPCA/discussions . Before doing so, please read the documents and first try to find out if things are already there.
 
 For reporting bugs, you can also open a issue on https://github.com/wangjun258/Slim_TPCA/issues .
 
